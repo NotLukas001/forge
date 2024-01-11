@@ -1,0 +1,325 @@
+{"level":30,"time":1704935990694,"pid":25224,"hostname":"Lukas-PC","msg":"Validating config file and environment variables"}
+{"level":40,"time":1704935990695,"pid":25224,"hostname":"Lukas-PC","msg":"WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1704935990695,"pid":25224,"hostname":"Lukas-PC","msg":"STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1704935990745,"pid":25224,"hostname":"Lukas-PC","msg":"Loading commands..."}
+{"level":20,"time":1704935991407,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1704935991408,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command invite. Disabled!"}
+{"level":20,"time":1704935991410,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1704935991411,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1704935991412,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1704935991420,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1704935991421,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1704935991422,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1704935991423,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1704935991424,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1704935991434,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1704935991435,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1704935991437,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1704935991438,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1704935991438,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1704935991439,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1704935991440,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1704935991441,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1704935991441,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1704935991442,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1704935991443,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1704935991444,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1704935991445,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1704935991446,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1704935991469,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1704935991469,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1704935991470,"pid":25224,"hostname":"Lukas-PC","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1704935991489,"pid":25224,"hostname":"Lukas-PC","msg":"Loaded 105 commands"}
+{"level":30,"time":1704935991489,"pid":25224,"hostname":"Lukas-PC","msg":"Loaded 86 slash commands"}
+{"level":30,"time":1704935991490,"pid":25224,"hostname":"Lukas-PC","msg":"Loading contexts..."}
+{"level":30,"time":1704935991491,"pid":25224,"hostname":"Lukas-PC","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1704935991491,"pid":25224,"hostname":"Lukas-PC","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1704935991491,"pid":25224,"hostname":"Lukas-PC","msg":"Loading events..."}
+{"level":30,"time":1704935991526,"pid":25224,"hostname":"Lukas-PC","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":50,"time":1704935991760,"pid":25224,"hostname":"Lukas-PC","msg":"VersionCheck: Failed to check for bot updates"}
+{"level":30,"time":1704935991763,"pid":25224,"hostname":"Lukas-PC","msg":"Connecting to MongoDb..."}
+{"level":50,"time":1704935993918,"pid":25224,"hostname":"Lukas-PC","err":{"type":"MongoServerError","message":"bad auth : Authentication failed.","stack":"MongoServerError: bad auth : Authentication failed.\n    at Connection.onMessage (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\connection.js:202:26)\n    at MessageStream.<anonymous> (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\connection.js:61:60)\n    at MessageStream.emit (node:events:514:28)\n    at processIncomingData (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:124:16)\n    at MessageStream._write (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n    at writeOrBuffer (node:internal/streams/writable:399:12)\n    at _write (node:internal/streams/writable:340:10)\n    at Writable.write (node:internal/streams/writable:344:10)\n    at TLSSocket.ondata (node:internal/streams/readable:785:22)\n    at TLSSocket.emit (node:events:514:28)","ok":0,"code":8000,"codeName":"AtlasError","connectionGeneration":0},"msg":"Mongoose: Failed to connect to database: bad auth : Authentication failed."}
+{"level":30,"time":1704936391873,"pid":30716,"hostname":"Lukas-PC","msg":"Validating config file and environment variables"}
+{"level":40,"time":1704936391874,"pid":30716,"hostname":"Lukas-PC","msg":"WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1704936391874,"pid":30716,"hostname":"Lukas-PC","msg":"STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1704936391929,"pid":30716,"hostname":"Lukas-PC","msg":"Loading commands..."}
+{"level":20,"time":1704936392618,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1704936392619,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command invite. Disabled!"}
+{"level":20,"time":1704936392621,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1704936392623,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1704936392624,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1704936392631,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1704936392632,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1704936392633,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1704936392635,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1704936392636,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1704936392647,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1704936392648,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1704936392649,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1704936392649,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1704936392650,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1704936392650,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1704936392651,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1704936392652,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1704936392652,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1704936392653,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1704936392655,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1704936392656,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1704936392658,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1704936392659,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1704936392685,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1704936392686,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1704936392686,"pid":30716,"hostname":"Lukas-PC","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1704936392707,"pid":30716,"hostname":"Lukas-PC","msg":"Loaded 105 commands"}
+{"level":30,"time":1704936392707,"pid":30716,"hostname":"Lukas-PC","msg":"Loaded 86 slash commands"}
+{"level":30,"time":1704936392707,"pid":30716,"hostname":"Lukas-PC","msg":"Loading contexts..."}
+{"level":30,"time":1704936392709,"pid":30716,"hostname":"Lukas-PC","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1704936392709,"pid":30716,"hostname":"Lukas-PC","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1704936392709,"pid":30716,"hostname":"Lukas-PC","msg":"Loading events..."}
+{"level":30,"time":1704936392745,"pid":30716,"hostname":"Lukas-PC","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":50,"time":1704936392989,"pid":30716,"hostname":"Lukas-PC","msg":"VersionCheck: Failed to check for bot updates"}
+{"level":30,"time":1704936392992,"pid":30716,"hostname":"Lukas-PC","msg":"Connecting to MongoDb..."}
+{"level":50,"time":1704936393561,"pid":30716,"hostname":"Lukas-PC","err":{"type":"MongoServerError","message":"bad auth : Authentication failed.","stack":"MongoServerError: bad auth : Authentication failed.\n    at Connection.onMessage (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\connection.js:202:26)\n    at MessageStream.<anonymous> (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\connection.js:61:60)\n    at MessageStream.emit (node:events:514:28)\n    at processIncomingData (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:124:16)\n    at MessageStream._write (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n    at writeOrBuffer (node:internal/streams/writable:399:12)\n    at _write (node:internal/streams/writable:340:10)\n    at Writable.write (node:internal/streams/writable:344:10)\n    at TLSSocket.ondata (node:internal/streams/readable:785:22)\n    at TLSSocket.emit (node:events:514:28)","ok":0,"code":8000,"codeName":"AtlasError","connectionGeneration":0},"msg":"Mongoose: Failed to connect to database: bad auth : Authentication failed."}
+{"level":30,"time":1704936568031,"pid":1712,"hostname":"Lukas-PC","msg":"Validating config file and environment variables"}
+{"level":40,"time":1704936568032,"pid":1712,"hostname":"Lukas-PC","msg":"WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1704936568032,"pid":1712,"hostname":"Lukas-PC","msg":"STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1704936568081,"pid":1712,"hostname":"Lukas-PC","msg":"Loading commands..."}
+{"level":20,"time":1704936568754,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1704936568755,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command invite. Disabled!"}
+{"level":20,"time":1704936568756,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1704936568758,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1704936568759,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1704936568769,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1704936568770,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1704936568771,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1704936568773,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1704936568773,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1704936568784,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1704936568785,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1704936568786,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1704936568786,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1704936568787,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1704936568788,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1704936568788,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1704936568789,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1704936568789,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1704936568791,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1704936568792,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1704936568792,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1704936568795,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1704936568796,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1704936568818,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1704936568819,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1704936568819,"pid":1712,"hostname":"Lukas-PC","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1704936568838,"pid":1712,"hostname":"Lukas-PC","msg":"Loaded 105 commands"}
+{"level":30,"time":1704936568838,"pid":1712,"hostname":"Lukas-PC","msg":"Loaded 86 slash commands"}
+{"level":30,"time":1704936568838,"pid":1712,"hostname":"Lukas-PC","msg":"Loading contexts..."}
+{"level":30,"time":1704936568839,"pid":1712,"hostname":"Lukas-PC","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1704936568839,"pid":1712,"hostname":"Lukas-PC","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1704936568839,"pid":1712,"hostname":"Lukas-PC","msg":"Loading events..."}
+{"level":30,"time":1704936568873,"pid":1712,"hostname":"Lukas-PC","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":50,"time":1704936569125,"pid":1712,"hostname":"Lukas-PC","msg":"VersionCheck: Failed to check for bot updates"}
+{"level":30,"time":1704936569128,"pid":1712,"hostname":"Lukas-PC","msg":"Connecting to MongoDb..."}
+{"level":50,"time":1704936569701,"pid":1712,"hostname":"Lukas-PC","err":{"type":"MongoServerError","message":"bad auth : Authentication failed.","stack":"MongoServerError: bad auth : Authentication failed.\n    at Connection.onMessage (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\connection.js:202:26)\n    at MessageStream.<anonymous> (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\connection.js:61:60)\n    at MessageStream.emit (node:events:514:28)\n    at processIncomingData (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:124:16)\n    at MessageStream._write (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n    at writeOrBuffer (node:internal/streams/writable:399:12)\n    at _write (node:internal/streams/writable:340:10)\n    at Writable.write (node:internal/streams/writable:344:10)\n    at TLSSocket.ondata (node:internal/streams/readable:785:22)\n    at TLSSocket.emit (node:events:514:28)","ok":0,"code":8000,"codeName":"AtlasError","connectionGeneration":0},"msg":"Mongoose: Failed to connect to database: bad auth : Authentication failed."}
+{"level":30,"time":1704936710490,"pid":25800,"hostname":"Lukas-PC","msg":"Validating config file and environment variables"}
+{"level":40,"time":1704936710491,"pid":25800,"hostname":"Lukas-PC","msg":"WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1704936710492,"pid":25800,"hostname":"Lukas-PC","msg":"STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1704936710546,"pid":25800,"hostname":"Lukas-PC","msg":"Loading commands..."}
+{"level":20,"time":1704936711212,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1704936711213,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command invite. Disabled!"}
+{"level":20,"time":1704936711214,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1704936711216,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1704936711217,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1704936711224,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1704936711225,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1704936711226,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1704936711227,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1704936711228,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1704936711237,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1704936711238,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1704936711239,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1704936711239,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1704936711240,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1704936711240,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1704936711241,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1704936711241,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1704936711242,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1704936711242,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1704936711243,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1704936711244,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1704936711246,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1704936711247,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1704936711271,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1704936711271,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1704936711271,"pid":25800,"hostname":"Lukas-PC","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1704936711290,"pid":25800,"hostname":"Lukas-PC","msg":"Loaded 105 commands"}
+{"level":30,"time":1704936711290,"pid":25800,"hostname":"Lukas-PC","msg":"Loaded 86 slash commands"}
+{"level":30,"time":1704936711291,"pid":25800,"hostname":"Lukas-PC","msg":"Loading contexts..."}
+{"level":30,"time":1704936711292,"pid":25800,"hostname":"Lukas-PC","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1704936711292,"pid":25800,"hostname":"Lukas-PC","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1704936711292,"pid":25800,"hostname":"Lukas-PC","msg":"Loading events..."}
+{"level":30,"time":1704936711326,"pid":25800,"hostname":"Lukas-PC","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":50,"time":1704936711584,"pid":25800,"hostname":"Lukas-PC","msg":"VersionCheck: Failed to check for bot updates"}
+{"level":30,"time":1704936711588,"pid":25800,"hostname":"Lukas-PC","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1704936712200,"pid":25800,"hostname":"Lukas-PC","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1704936712716,"pid":25800,"hostname":"Lukas-PC","msg":"Logged in as Forge#1125! (968854122449215538)"}
+{"level":20,"time":1704936712716,"pid":25800,"hostname":"Lukas-PC","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1704936712717,"pid":25800,"hostname":"Lukas-PC","msg":"Music Manager initialized"}
+{"level":30,"time":1704936712717,"pid":25800,"hostname":"Lukas-PC","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1704936712768,"pid":25800,"hostname":"Lukas-PC","msg":"Giveaway Manager initialized"}
+{"level":50,"time":1704936713485,"pid":25800,"hostname":"Lukas-PC","err":{"type":"Error","message":"Error: Unexpected server response: 404","stack":"Error: Error: Unexpected server response: 404\n    at Connection._onerror (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\lavaclient\\dist\\lib\\node\\Connection.js:145:33)\n    at callListener (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\event-target.js:290:14)\n    at WebSocket.onError (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\event-target.js:230:9)\n    at WebSocket.emit (node:events:514:28)\n    at emitErrorAndClose (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\websocket.js:1016:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"},"msg":"Node \"Main\" encountered an error: Error: Unexpected server response: 404.: Error: Unexpected server response: 404"}
+{"level":30,"time":1704936713486,"pid":25800,"hostname":"Lukas-PC","msg":"Node \"Main\" disconnected"}
+{"level":20,"time":1704936713486,"pid":25800,"hostname":"Lukas-PC","msg":"Node \"Main\" debug: connection: unable to reconnect"}
+{"level":30,"time":1704936714764,"pid":25800,"hostname":"Lukas-PC","msg":"Successfully registered interactions"}
+{"level":30,"time":1704936975226,"pid":29668,"hostname":"Lukas-PC","msg":"Validating config file and environment variables"}
+{"level":40,"time":1704936975227,"pid":29668,"hostname":"Lukas-PC","msg":"WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1704936975227,"pid":29668,"hostname":"Lukas-PC","msg":"STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1704936975281,"pid":29668,"hostname":"Lukas-PC","msg":"Loading commands..."}
+{"level":20,"time":1704936976026,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1704936976027,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command invite. Disabled!"}
+{"level":20,"time":1704936976028,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1704936976029,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1704936976030,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1704936976038,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1704936976039,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1704936976042,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1704936976044,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1704936976045,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1704936976054,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1704936976055,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1704936976056,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1704936976057,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1704936976057,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1704936976058,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1704936976058,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1704936976059,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1704936976059,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1704936976061,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1704936976063,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1704936976064,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1704936976066,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1704936976068,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1704936976093,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1704936976094,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1704936976095,"pid":29668,"hostname":"Lukas-PC","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1704936976119,"pid":29668,"hostname":"Lukas-PC","msg":"Loaded 105 commands"}
+{"level":30,"time":1704936976119,"pid":29668,"hostname":"Lukas-PC","msg":"Loaded 86 slash commands"}
+{"level":30,"time":1704936976120,"pid":29668,"hostname":"Lukas-PC","msg":"Loading contexts..."}
+{"level":30,"time":1704936976122,"pid":29668,"hostname":"Lukas-PC","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1704936976122,"pid":29668,"hostname":"Lukas-PC","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1704936976122,"pid":29668,"hostname":"Lukas-PC","msg":"Loading events..."}
+{"level":30,"time":1704936976164,"pid":29668,"hostname":"Lukas-PC","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":50,"time":1704936976422,"pid":29668,"hostname":"Lukas-PC","msg":"VersionCheck: Failed to check for bot updates"}
+{"level":30,"time":1704936976425,"pid":29668,"hostname":"Lukas-PC","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1704936977090,"pid":29668,"hostname":"Lukas-PC","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1704936977556,"pid":29668,"hostname":"Lukas-PC","msg":"Logged in as Forge#1125! (968854122449215538)"}
+{"level":20,"time":1704936977557,"pid":29668,"hostname":"Lukas-PC","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1704936977558,"pid":29668,"hostname":"Lukas-PC","msg":"Music Manager initialized"}
+{"level":30,"time":1704936977558,"pid":29668,"hostname":"Lukas-PC","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1704936977625,"pid":29668,"hostname":"Lukas-PC","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1704936978133,"pid":29668,"hostname":"Lukas-PC","msg":"Successfully registered interactions"}
+{"level":50,"time":1704936978313,"pid":29668,"hostname":"Lukas-PC","err":{"type":"Error","message":"Error: Unexpected server response: 404","stack":"Error: Error: Unexpected server response: 404\n    at Connection._onerror (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\lavaclient\\dist\\lib\\node\\Connection.js:145:33)\n    at callListener (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\event-target.js:290:14)\n    at WebSocket.onError (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\event-target.js:230:9)\n    at WebSocket.emit (node:events:514:28)\n    at emitErrorAndClose (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\websocket.js:1016:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"},"msg":"Node \"Main\" encountered an error: Error: Unexpected server response: 404.: Error: Unexpected server response: 404"}
+{"level":30,"time":1704936978315,"pid":29668,"hostname":"Lukas-PC","msg":"Node \"Main\" disconnected"}
+{"level":20,"time":1704936978315,"pid":29668,"hostname":"Lukas-PC","msg":"Node \"Main\" debug: connection: unable to reconnect"}
+{"level":30,"time":1704937662125,"pid":8360,"hostname":"Lukas-PC","msg":"Validating config file and environment variables"}
+{"level":40,"time":1704937662126,"pid":8360,"hostname":"Lukas-PC","msg":"WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1704937662126,"pid":8360,"hostname":"Lukas-PC","msg":"STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1704937662192,"pid":8360,"hostname":"Lukas-PC","msg":"Loading commands..."}
+{"level":20,"time":1704937663009,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1704937663010,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command invite. Disabled!"}
+{"level":20,"time":1704937663012,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1704937663013,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1704937663015,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1704937663024,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1704937663025,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1704937663026,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1704937663028,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1704937663029,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1704937663053,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1704937663059,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1704937663061,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1704937663061,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1704937663062,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1704937663063,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1704937663064,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1704937663066,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1704937663066,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1704937663068,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1704937663069,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1704937663076,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1704937663087,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1704937663091,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1704937663132,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1704937663133,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1704937663134,"pid":8360,"hostname":"Lukas-PC","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1704937663163,"pid":8360,"hostname":"Lukas-PC","msg":"Loaded 105 commands"}
+{"level":30,"time":1704937663163,"pid":8360,"hostname":"Lukas-PC","msg":"Loaded 86 slash commands"}
+{"level":30,"time":1704937663164,"pid":8360,"hostname":"Lukas-PC","msg":"Loading contexts..."}
+{"level":30,"time":1704937663167,"pid":8360,"hostname":"Lukas-PC","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1704937663167,"pid":8360,"hostname":"Lukas-PC","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1704937663167,"pid":8360,"hostname":"Lukas-PC","msg":"Loading events..."}
+{"level":30,"time":1704937663217,"pid":8360,"hostname":"Lukas-PC","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":50,"time":1704937663485,"pid":8360,"hostname":"Lukas-PC","msg":"VersionCheck: Failed to check for bot updates"}
+{"level":30,"time":1704937663488,"pid":8360,"hostname":"Lukas-PC","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1704937664214,"pid":8360,"hostname":"Lukas-PC","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1704937664958,"pid":8360,"hostname":"Lukas-PC","msg":"Logged in as Forge#1125! (968854122449215538)"}
+{"level":20,"time":1704937664958,"pid":8360,"hostname":"Lukas-PC","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1704937664959,"pid":8360,"hostname":"Lukas-PC","msg":"Music Manager initialized"}
+{"level":30,"time":1704937664959,"pid":8360,"hostname":"Lukas-PC","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1704937665007,"pid":8360,"hostname":"Lukas-PC","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1704937665506,"pid":8360,"hostname":"Lukas-PC","msg":"Successfully registered interactions"}
+{"level":50,"time":1704937665731,"pid":8360,"hostname":"Lukas-PC","err":{"type":"Error","message":"Error: Unexpected server response: 404","stack":"Error: Error: Unexpected server response: 404\n    at Connection._onerror (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\lavaclient\\dist\\lib\\node\\Connection.js:145:33)\n    at callListener (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\event-target.js:290:14)\n    at WebSocket.onError (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\event-target.js:230:9)\n    at WebSocket.emit (node:events:514:28)\n    at emitErrorAndClose (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\websocket.js:1016:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"},"msg":"Node \"Main\" encountered an error: Error: Unexpected server response: 404.: Error: Unexpected server response: 404"}
+{"level":30,"time":1704937665732,"pid":8360,"hostname":"Lukas-PC","msg":"Node \"Main\" disconnected"}
+{"level":20,"time":1704937665732,"pid":8360,"hostname":"Lukas-PC","msg":"Node \"Main\" debug: connection: unable to reconnect"}
+{"level":30,"time":1704938607570,"pid":8012,"hostname":"Lukas-PC","msg":"Validating config file and environment variables"}
+{"level":40,"time":1704938607572,"pid":8012,"hostname":"Lukas-PC","msg":"WEATHERSTACK_KEY is missing. Weather command won't work"}
+{"level":40,"time":1704938607572,"pid":8012,"hostname":"Lukas-PC","msg":"STRANGE_API_KEY is missing. Image commands won't work"}
+{"level":30,"time":1704938607643,"pid":8012,"hostname":"Lukas-PC","msg":"Loading commands..."}
+{"level":20,"time":1704938608464,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1704938608466,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command invite. Disabled!"}
+{"level":20,"time":1704938608468,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1704938608470,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1704938608471,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1704938608482,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1704938608483,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1704938608484,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1704938608487,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1704938608488,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1704938608502,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1704938608503,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1704938608505,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1704938608506,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1704938608507,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1704938608508,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1704938608509,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1704938608509,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1704938608510,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1704938608512,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1704938608513,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1704938608514,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1704938608518,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1704938608520,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1704938608549,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1704938608549,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1704938608550,"pid":8012,"hostname":"Lukas-PC","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1704938608581,"pid":8012,"hostname":"Lukas-PC","msg":"Loaded 105 commands"}
+{"level":30,"time":1704938608581,"pid":8012,"hostname":"Lukas-PC","msg":"Loaded 86 slash commands"}
+{"level":30,"time":1704938608581,"pid":8012,"hostname":"Lukas-PC","msg":"Loading contexts..."}
+{"level":30,"time":1704938608583,"pid":8012,"hostname":"Lukas-PC","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1704938608583,"pid":8012,"hostname":"Lukas-PC","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1704938608583,"pid":8012,"hostname":"Lukas-PC","msg":"Loading events..."}
+{"level":30,"time":1704938608619,"pid":8012,"hostname":"Lukas-PC","msg":"Loaded 15 events. Success (15) Failed (0)"}
+{"level":50,"time":1704938608925,"pid":8012,"hostname":"Lukas-PC","msg":"VersionCheck: Failed to check for bot updates"}
+{"level":30,"time":1704938608928,"pid":8012,"hostname":"Lukas-PC","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1704938609533,"pid":8012,"hostname":"Lukas-PC","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1704938610081,"pid":8012,"hostname":"Lukas-PC","msg":"Logged in as Forge#1125! (968854122449215538)"}
+{"level":20,"time":1704938610082,"pid":8012,"hostname":"Lukas-PC","msg":"Node \"Main\" debug: connection: creating websocket..."}
+{"level":30,"time":1704938610082,"pid":8012,"hostname":"Lukas-PC","msg":"Music Manager initialized"}
+{"level":30,"time":1704938610083,"pid":8012,"hostname":"Lukas-PC","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1704938610136,"pid":8012,"hostname":"Lukas-PC","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1704938610782,"pid":8012,"hostname":"Lukas-PC","msg":"Successfully registered interactions"}
+{"level":50,"time":1704938610851,"pid":8012,"hostname":"Lukas-PC","err":{"type":"Error","message":"Error: Unexpected server response: 404","stack":"Error: Error: Unexpected server response: 404\n    at Connection._onerror (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\lavaclient\\dist\\lib\\node\\Connection.js:145:33)\n    at callListener (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\event-target.js:290:14)\n    at WebSocket.onError (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\event-target.js:230:9)\n    at WebSocket.emit (node:events:514:28)\n    at emitErrorAndClose (C:\\Users\\jmark\\Downloads\\source-code-lucy-v5-5-1\\lucy-code\\node_modules\\ws\\lib\\websocket.js:1016:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"},"msg":"Node \"Main\" encountered an error: Error: Unexpected server response: 404.: Error: Unexpected server response: 404"}
+{"level":30,"time":1704938610852,"pid":8012,"hostname":"Lukas-PC","msg":"Node \"Main\" disconnected"}
+{"level":20,"time":1704938610852,"pid":8012,"hostname":"Lukas-PC","msg":"Node \"Main\" debug: connection: unable to reconnect"}
+{"level":50,"time":1704938738862,"pid":8012,"hostname":"Lukas-PC","msg":"{}"}
+{"level":50,"time":1704938758873,"pid":8012,"hostname":"Lukas-PC","msg":"{}"}
