@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 module.exports = {
-  BOT_TOKEN: const token = process.env.TOKEN;, // Your bot token from https://discord.com/developers/applications
+  BOT_TOKEN: "OTY4ODU0MTIyNDQ5MjE1NTM4.GdUQll.6-FBlO3Ds10KZ-vTWvPy0Wv7EAjgigvlKFnJyQ", // Your bot token from https://discord.com/developers/applications
   BOT_SECRET: "HWkNtjovwzzFJfPBCykPj_4GZlSHDjq6", // Your bot secret from https://discord.com/developers/applications
   MONGO_CONNECTION: "mongodb+srv://NotLukas:NotLukas1520@lukasidk.l0yu6ry.mongodb.net/", // MongoDB Atlas connection string https://www.mongodb.com/docs/atlas/app-services/
   OWNER_IDS: ["715678378614718564"], // Bot owner ID's
@@ -56,7 +56,7 @@ module.exports = {
   // optional
   // If you enable the dashboard, configure it in your bot's developer settings and add the API/callback URI. For example: http://localhost:8080/api/callback
   DASHBOARD: {
-    enabled: false,
+    enabled: true,
     baseURL: "http://localhost:8080",
     failureURL: "http://localhost:8080",
     port: "8080",
