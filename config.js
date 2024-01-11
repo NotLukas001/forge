@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 module.exports = {
-  BOT_TOKEN: "OTY4ODU0MTIyNDQ5MjE1NTM4.GPy0fC.FAdUIVKW5p0mIBSkqJ7oTuuCrEl4kf_W-qRD2M", // Your bot token from https://discord.com/developers/applications
+  BOT_TOKEN: const token = process.env.TOKEN;, // Your bot token from https://discord.com/developers/applications
   BOT_SECRET: "HWkNtjovwzzFJfPBCykPj_4GZlSHDjq6", // Your bot secret from https://discord.com/developers/applications
   MONGO_CONNECTION: "mongodb+srv://NotLukas:NotLukas1520@lukasidk.l0yu6ry.mongodb.net/", // MongoDB Atlas connection string https://www.mongodb.com/docs/atlas/app-services/
   OWNER_IDS: ["715678378614718564"], // Bot owner ID's
